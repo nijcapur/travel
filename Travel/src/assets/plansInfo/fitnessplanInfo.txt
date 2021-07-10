@@ -1,0 +1,7 @@
+{
+    "SpreadSheetId" : "1cvKfMsYymD099D_PfqV7ttRYoAuq8d7x-q4py6LJWzE",
+    "SheetName": "FitnessPlans",
+    "MySpreadSheetId" : "1gaFoOaedbmQ1EHsELn60ZMw7HURJC8xjjdT7fahZ_1A",
+    "MySheetName": "UserPlans",
+    "Type": "Fitness"
+}

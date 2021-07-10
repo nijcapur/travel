@@ -1,0 +1,222 @@
+@import "variables.scss";
+
+.carousel-caption-custom-aboutme {
+  position: absolute;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: $font-family-main;
+  font-weight: $font-weight-main;
+  color: $font-color;
+}
+
+.aboutMeImages {
+  background: transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 800px;
+  margin-left: 150px;
+  height: 350px;
+}
+
+.aboutMeImagesMobile {
+  background: transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 200px;
+}
+
+.aboutMeClass {
+  min-height: 800px;
+  overflow: auto;
+}
+
+.aboutMeVideos {
+  background: transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 150px;
+}
+
+.aboutMeVideosMobile {
+  background: transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.carousel-caption-custom {
+  position: absolute;
+  z-index: 10;
+  left: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: $font-family-main;
+  font-weight: $font-weight-main;
+  color: $font-color;
+}
+
+.custom-font {
+  font-family: $font-family-main !important;
+  font-weight: bold;
+  font-size: large;
+  color: $font-color !important;
+}
+
+.custom-tab-font {
+    font-family: $font-family-main !important;
+    font-weight: bold;
+    font-size: large;
+    background-color: $background-tab-color !important;
+    color: $font-color !important;
+  }
+
+.homeClass {
+  min-height: 800px;
+  overflow: auto !important;
+}
+
+.custom-font {
+  font-family: $font-family-main;
+  font-weight: $font-weight-main;
+  font-size: large;
+  color: $font-color;
+}
+
+#customBtn {
+  display: inline-block;
+  background: white;
+  color: #444;
+  width: auto;
+  border-radius: 5px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+}
+#customBtn:hover {
+  cursor: pointer !important;
+}
+.gSignInWrapper {
+  margin-left: 70%;
+}
+.gSignInWrapperMoblie {
+  margin-left: 60%;
+}
+span.label {
+  font-family: $font-family-main;
+  font-weight: normal;
+}
+span.icon {
+  background: url("../../assets/userInfo/g-normal.png") transparent 5px 50%
+    no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+.imageClass {
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  vertical-align: middle;
+}
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.frameClass {
+  height: 100%;
+}
+
+.youTubeClass {
+  height: 407px;
+  width: 801px;
+}
+
+.youTubeClassMobile {
+  height: 200px;
+  width: 100%;
+}
+
+.planBlock {
+  background-color: rgb(224, 230, 214);
+  border: 5px solid rgb(137, 144, 151);
+  border-style: ridge;
+  padding: 30px;
+  margin: 10px;
+  font-family: $font-family-main;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: $plan-block-font-color;
+}
+
+.hoverClass {
+  cursor: pointer !important;
+}
+
+.planImage {
+  background: transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 182px;
+  height: 82px;
+}
+
+.container {
+  max-height: 99%;
+  border: 1px solid #00000080;
+  border-style: ridge;
+  color: $font-color;
+  background-color: $background-color;
+}
+
+.sidenav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $font-color;
+  background-color: $background-color;
+}
+
+.sidenav-template {
+  display: flex;
+  min-height: 800px;
+  align-items: center;
+  justify-content: center;
+  color: $font-color;
+  overflow: auto !important;
+  // background-color: rgb(219, 184, 184);
+  background-color: $background-color;
+}
+
+#mat-container {
+  overflow: auto !important;
+}
+
+.menu-item-hover {
+  cursor: pointer;
+}
+
+.sidenav {
+  padding: 20px;
+  font-family: $font-family-main;
+  font-weight: 600;
+  color: $font-color;
+  // background-color: rgb(238, 233, 223);
+  background-color: $background-color;
+}
+
+.button-class {
+  font-weight: bold;
+  color: $font-color;
+}

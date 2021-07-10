@@ -1,0 +1,6 @@
+{
+"images": "../../assets/images/ninja4.png;../../assets/images/ninja3.png;../../assets/images/ninja2.jpeg",
+"aboutMeHtml" : "<h3 class=\"h4-responsive custom-font\">Humble Beast<\/h3><p>Sumir Kapoor<\/p><ng-container><br \/><p>A calisthenics and movement skills coach, Sumir's versatility in evident from the many competitions he has participated and won accolades in. He loves to compete and explore new movements and is passionate about his profession. He has a simple motive, &quot;Talk less, do more.&quot;<\/p><br \/><p>Sumir's many achievements include: Indian Competitor in Ultimate BeastMaster Netflix Season 2, Gold medal winner in US INBA Global Sports Model, INBA Physique Competitor, Calisthenics Statics 2nd in Bangalore Chaos Faktory and AISW Mumbai, Calisthenics Reps and Sets Winner.<\/p><br \/><p>Sumir's many achievements include: Indian Competitor in Ultimate Beast Master Netflix Season 2, Gold medal winner in US INBA Global Sports Model, INBA Physique Competitor, Calisthenics Statics 2nd in Bangalore Chaos Faktory and AISW Mumbai, Calisthenics Reps and Sets Winner.<\/p><\/ng-container>",
+"videos":"https://www.youtube.com/embed/UwBv4MM_gSI;https://www.youtube.com/embed/RbPswUFEqSQ",
+"showImages":"false"
+}

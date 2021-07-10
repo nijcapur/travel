@@ -1,0 +1,19 @@
+<div class="container homeClass">
+    <button type="button" class="button-class" mat-button (click)="openDialog()">
+        Privacy Policy
+      </button>
+    <ng-container>
+        <mdb-carousel class="carousel slide carousel-fade" [animation]="'slide'">
+        <mdb-carousel-item *ngFor="let imagePath of images$ | async; let i = index">
+            <div class="view w-100">
+                <img [ngClass]="isMobile ? 'd-block w-100 img-responsive homeImagesMobile' :'d-block img-responsive homeImages'"
+                    [src]="imagePath"/>
+                <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+            </div>
+        </mdb-carousel-item>
+        </mdb-carousel>
+            <div [ngClass]="isMobile ? 'carousel-caption-custom-home-mobile' :'carousel-caption-custom-home'" [innerHTML]="home.homeHtml">
+            </div>
+    </ng-container>
+  </div>
+  

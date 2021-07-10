@@ -1,0 +1,11 @@
+<div class="planBlock" [matTooltip]="planBlock.description">
+        <div class="row hoverClass" (click)="onClick($event)"><div class="col">{{planBlock.displayName}}</div></div>
+        <br/>
+        <div class="row hoverClass" (click)="onClick($event)"><div class="col">{{planBlock.price}}</div></div>
+        <br/>
+        <div class="row hoverClass" (click)="imageClick($event)">
+            <div class="col">
+                <img class="planImage" [src]="planBlock.imageUrl" [alt]="planBlock.description">
+            </div>
+        </div>
+</div>

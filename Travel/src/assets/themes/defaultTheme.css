@@ -1,0 +1,218 @@
+.carousel-caption-custom-aboutme {
+  position: absolute !important;
+  z-index: 10 !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: center !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 400 !important;
+  color: white !important;
+}
+
+.aboutMeImages {
+  background: transparent 5px 50% no-repeat !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  width: 800px !important;
+  margin-left: 150px !important;
+  height: 350px !important;
+}
+
+.aboutMeImagesMobile {
+  background: transparent 5px 50% no-repeat !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  width: 100% !important;
+  height: 200px !important;
+}
+
+.aboutMeClass {
+  min-height: 800px !important;
+  overflow: auto !important;
+}
+
+.aboutMeVideos {
+  background: transparent 5px 50% no-repeat !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin-left: 150px !important;
+}
+
+.aboutMeVideosMobile {
+  background: transparent 5px 50% no-repeat !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.carousel-caption-custom {
+  position: absolute !important;
+  z-index: 10 !important;
+  left: 60% !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: center !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 400 !important;
+  color: white !important;
+}
+
+.custom-font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  !important;;
+  font-weight: bold !important;
+  font-size: large !important;
+  color: white  !important;;
+}
+
+.custom-tab-font {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  !important;;
+    font-weight: bold !important;
+    font-size: large !important;
+    border-radius: 25px !important;
+    background-color: rgb(224, 230, 214)  !important;;
+    color: black  !important;;
+  }
+
+.homeClass {
+  min-height: 800px !important;
+  overflow: auto  !important;;
+}
+
+.custom-font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: large !important;
+  color: white !important;
+}
+
+#customBtn {
+  display: inline-block !important;
+  background: white !important;
+  color: #444 !important;
+  width: auto !important;
+  border-radius: 5px !important;
+  border: thin solid #888 !important;
+  box-shadow: 1px 1px 1px grey !important;
+  white-space: nowrap !important;
+}
+#customBtn:hover {
+  cursor: pointer  !important;;
+}
+.gSignInWrapper {
+  margin-left: 70% !important;
+}
+.gSignInWrapperMoblie {
+  margin-left: 60% !important;
+}
+span.label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: normal !important;
+}
+span.icon {
+  background: url("../../assets/userInfo/g-normal.png") transparent 5px 50% no-repeat !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  width: 42px !important;
+  height: 42px !important;
+}
+.imageClass {
+  width: 42px !important;
+  height: 42px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+span.buttonText {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  padding-left: 42px !important;
+  padding-right: 42px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.frameClass {
+  height: 100% !important;
+}
+
+.youTubeClass {
+  height: 407px !important;
+  width: 801px !important;
+}
+
+.youTubeClassMobile {
+  height: 200px !important;
+  width: 100% !important;
+}
+
+.planBlock {
+  background-color: rgb(224, 230, 214) !important;
+  border: 5px solid rgb(137, 144, 151) !important;
+  border-style: ridge !important;
+  padding: 30px !important;
+  margin: 10px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  color: black !important;
+}
+
+.hoverClass {
+  cursor: pointer  !important;;
+}
+
+.planImage {
+  background: transparent 5px 50% no-repeat !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  width: 182px !important;
+  height: 82px !important;
+}
+
+.container {
+  max-height: 99% !important;
+  border: 1px solid #00000080 !important;
+  border-style: ridge !important;
+  color: white !important;
+  background-color: black !important;
+}
+
+.sidenav-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: white !important;
+  background-color: black !important;
+}
+
+.sidenav-template {
+  display: flex !important;
+  min-height: 800px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: white !important;
+  overflow: auto  !important;;
+  background-color: black !important;
+}
+
+#mat-container {
+  overflow: auto  !important;;
+}
+
+.menu-item-hover {
+  cursor: pointer !important;
+}
+
+.sidenav {
+  padding: 20px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 600 !important;
+  color: white  !important;;
+  background-color: black  !important;;
+}
+
+.button-class {
+  font-weight: bold !important;
+  color: white !important;
+}

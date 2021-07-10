@@ -1,0 +1,23 @@
+<div class="aboutMeClass">
+  <mdb-carousel *ngIf="aboutMe.showImages === 'true'" class="carousel slide carousel-fade" [animation]="'slide'">
+    <mdb-carousel-item *ngFor="let imagePath of images$ | async; let i = index">
+      <div class="view w-100">
+        <img
+          [ngClass]="isMobile ? 'd-block w-100 img-responsive aboutMeImagesMobile' :'d-block img-responsive aboutMeImages'"
+          [src]="imagePath"
+        />
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
+  <mdb-carousel *ngIf="aboutMe.showImages === 'false'" [isControls]="true" [animation]="'slide'" [interval]="0" class="carousel slide carousel-fade">
+    <mdb-carousel-item *ngFor="let video of videos$ | async; let i = index">
+      <div [ngClass]="isMobile ? 'd-block w-100 aboutMeVideosMobile' :'d-block aboutMeVideos'">
+        <rs-iframe [scrUrl]="video" [youTubeUrl]="true"></rs-iframe>
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
+  <div [ngClass]="'carousel-caption-custom-aboutme'" [innerHTML]="aboutMe.aboutMeHtml">
+  </div>
+</div>

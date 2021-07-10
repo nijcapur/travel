@@ -1,0 +1,24 @@
+<div class="plan" >
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a [ngClass]="showMyPlans === false ? 'nav-link active custom-tab-font' : 'nav-link custom-tab'" href="/#/plans" (click)="togglePlan()">{{ menuItem.title }}</a>
+        </li>
+        <li class="nav-item">
+            <a [ngClass]="showMyPlans === true ? 'nav-link active custom-tab-font' : 'nav-link custom-tab'" href="/#/plans" (click)="togglePlan(); getMyPlanDetails()">My {{ menuItem.title }}</a>
+        </li>
+      </ul>
+    <ng-container *ngIf="!loading">
+        <div class="row" *ngIf="showMyPlans === false">
+            <div [ngClass]="isMobile ? 'col-10 leftMargin' : 'col-4'" *ngFor="let plan of planModels$ | async; let i = index" >
+                <rs-plan-block [planBlock]="plan" (imageClicked) = "openImageDialog(plan)"></rs-plan-block>
+            </div>
+        </div>
+        <div class="row" *ngIf="showMyPlans === true">
+            <div [ngClass]="isMobile ? 'col-10 leftMargin' : 'col-4'" *ngFor="let plan of myPlanModels$ | async; let i = index">
+                <rs-plan-block [planBlock]="plan" (clickEvent) = "openDialog(plan)" (imageClicked) = "openImageDialog(plan)"></rs-plan-block>
+            </div>
+        </div>
+    </ng-container>
+    <mat-spinner color="accent" mode="indeterminate" *ngIf="loading"></mat-spinner>
+</div>
+

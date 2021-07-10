@@ -1,0 +1,36 @@
+https://docs.google.com/spreadsheets/d/e/2PACX-1vS1j2INuQk2wEgehftVbgDS9jBitqyM_a3nrq6A12hObVKnI5nlanrxTUtteL7L3qfrJSSX2Vm3oSP6/pubhtml
+
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS1j2INuQk2wEgehftVbgDS9jBitqyM_a3nrq6A12hObVKnI5nlanrxTUtteL7L3qfrJSSX2Vm3oSP6/pubhtml?widget=true&amp;headers=false"></iframe>
+
+humble-beast-281005
+
+
+client id: 381215955410-0bihnp70798tifjc939t0p03pm2o5kuf.apps.googleusercontent.com
+
+client secret: 4n_rBfs3YX2JUU_e5uLDz9zB
+
+api key: AIzaSyChFvrwRlLJo3ZRPgTgwmp2mfM-wSYKsBc
+
+
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRU08vCvkmT2Z0ESKw5GdO9p3Ai9jQP_ItdWIBFS-aPOjjHhmmAxXElHwUdAwdtmx15btV7TqLM3tVR/pubhtml?gid=0&single=true
+
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRU08vCvkmT2Z0ESKw5GdO9p3Ai9jQP_ItdWIBFS-aPOjjHhmmAxXElHwUdAwdtmx15btV7TqLM3tVR/pubhtml
+
+
+// "browser": {
+  //   "child_process": false,
+  //   "fs": false,
+  //   "crypto": false,
+  //   "net": false,
+  //   "tls": false,
+  //   "stream": false,
+  //   "os": false,
+  //   "path": false
+  // }
+
+  https://googledrive.com/host/1k5JayTvlWYjPQIp-mNjtJLZp1jmyqQ91/Index.html#
+
+https://drive.google.com/drive/folders/1k5JayTvlWYjPQIp-mNjtJLZp1jmyqQ91?usp=sharing
+
+  https://drive.google.com/drive/folders/1k5JayTvlWYjPQIp-mNjtJLZp1jmyqQ91?usp=sharing

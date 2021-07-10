@@ -1,0 +1,41 @@
+<div class="row textClass">
+    <div class="col-10"><b>We require below basic information to create Customize Plans for you, so please enter the same.</b></div>
+</div>
+<br/>
+<br/>
+<form [formGroup]="form" *ngIf="form" class="formClass">
+    <div class="row" *ngIf="showSuccessMsg">
+        <div class="col-4"><b>Saved Successfully!!</b></div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-4">Email ID:</div>
+        <div class="col-6"><input type="text" [formControlName]="'emailid'"/></div>
+    </div>
+    <div class="row">
+        <div class="col-4">Phone Number:</div>
+        <div class="col-6"><input type="text" [formControlName]="'phonenumber'"/></div>
+    </div>
+    <div class="row">
+        <div class="col-4">Age:</div>
+        <div class="col-6"><input type="text" [formControlName]="'age'"/></div>
+    </div>
+    <div class="row">
+        <div class="col-4">Weight:</div>
+        <div class="col-6"><input type="text" [formControlName]="'weight'"/></div>
+    </div>
+    <div class="row">
+        <div class="col-4">Height:</div>
+        <div class="col-6"><input type="text" [formControlName]="'height'"/></div>
+    </div>
+    <div class="row">
+        <div class="col-4">Activity Level:</div>
+        <div class="col-6"><input type="text" [formControlName]="'activitylevel'"/></div>
+    </div>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-8"><button type="text" (click)="submitForm()">Submit Form</button></div>
+    </div>
+</form>

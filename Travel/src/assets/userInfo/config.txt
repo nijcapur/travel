@@ -1,0 +1,38 @@
+{
+    "spreadSheetId" : "14vV3exMFVcPXfbZLtSdpKWGGVqRbaJa1Hwdy81xL-WU",
+    "sheetName": "logs",
+    "clientId" : "854099817891-blka2tenp62vqkk6vismivc1pa0knhiu.apps.googleusercontent.com",
+    "apiKey" : "AIzaSyAafJY-wvxoWr-hgQ8CO10t2OxorbC9VOA",
+    "menuItems": {
+        "menuitem1": {
+            "title": "Basic Information",
+            "fileInfo" : "/userInfo/formInfo.txt",
+            "component" : "BasicFormComponent"
+        },
+        "menuitem2": {
+            "title": "About Me",
+            "fileInfo" : "/userInfo/aboutMeInfo.txt",
+            "component" : "AboutMeComponent"
+        },
+        "menuitem3": {
+            "title": "Meal plans",
+            "fileInfo" : "/plansInfo/mealplanInfo.txt",
+            "component" : "PlansComponent"
+        },
+        "menuitem4": {
+            "title": "Fitness plans",
+            "fileInfo" : "/plansInfo/fitnessplanInfo.txt",
+            "component" : "PlansComponent"
+        },
+        "menuitem5": {
+            "title": "Admin",
+            "fileInfo" : "/plansInfo/adminInfo.txt",
+            "component" : "AdminComponent"
+        },
+        "menuitem0": {
+            "title": "Log In",
+            "fileInfo" : "/userInfo/homeInfo.txt",
+            "component" : "HomeComponent"
+        }
+    }
+}

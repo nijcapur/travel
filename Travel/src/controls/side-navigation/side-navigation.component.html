@@ -1,0 +1,15 @@
+<mat-drawer-container id="mat-container" class="container">
+    <mat-drawer #drawer class="sidenav" mode="over">
+      <ng-container *ngFor="let item of menuItems; let i = index" mat-raised-button>
+        <div class="menu-item menu-item-hover" (click)="itemClicked(item); drawer.toggle()">{{item.title}}</div>
+      </ng-container>
+    </mat-drawer>
+    <button type="button" class="button-class" mat-button (click)="drawer.toggle()">
+      ...
+    </button>
+    <ng-content *ngIf="!hideContent"  class="sidenav-content" (click)="drawer.toggle()">
+    </ng-content>
+    <ng-template class="sidenav-template" host-content>
+
+    </ng-template>
+  </mat-drawer-container>

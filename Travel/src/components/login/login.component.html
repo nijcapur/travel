@@ -1,0 +1,15 @@
+
+<div id="gSignInWrapper" *ngIf="!googleSheetsService.user"  [ngClass]="isMobile ? 'gSignInWrapperMoblie':'gSignInWrapper'" (click)="landingService.authenticate()">    
+    <span class="label">Sign in: </span>
+    <div id="customBtn" class="loginClass">
+      <span class="icon"></span>
+      <span class="buttonText" *ngIf="!isMobile">Google</span>
+    </div>
+  </div>
+  <div id="gSignInWrapper" *ngIf="googleSheetsService.user"  [ngClass]="isMobile ? 'gSignInWrapperMoblie':'gSignInWrapper'" (click)="landingService.signOut()">
+    <span class="label">Sign Out: </span>
+    <div id="customBtn">
+      <img class="imageClass" [src]="googleSheetsService.user.imageUrl">
+      <span class="buttonText" *ngIf="!isMobile">{{googleSheetsService.user.name}}</span>
+    </div>
+  </div>
